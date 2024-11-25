@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Medical Image Viewer
 
 Description: 
@@ -29,3 +30,6 @@ Window/Level Adjustments: Adjust the window and level for medical images to impr
 DICOM Image Handling
 Supports uploading and viewing DICOM images.
 Displays relevant metadata such as patient name and study date extracted from the DICOM file.
+=======
+# medical-image-viewer
+>>>>>>> cd3eeac4e90b64db52f89f66971eca473960fff9
