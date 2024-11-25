@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+Medical Image Viewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description: 
 
-## Available Scripts
+This project is a SaaS-based Medical Image Viewer application designed to assist healthcare professionals in annotating and manipulating medical images like ultrasound scans. The application supports various image formats and provides tools for cropping, zooming, and handling DICOM images.
 
-In the project directory, you can run:
+Key Features:
 
-### `npm start`
+Image manipulation tools: Crop, zoom, adjust brightness, contrast, and window/level.
+Support for DICOM images: View medical images and relevant metadata (patient name, study date, etc.).
+Real-world measurement conversion (optional): Convert pixel distances into real-world units like millimeters (mm) or centimeters (cm).
+Tech Stack
+Frontend Framework: React.js
+State Management: React Context API / useState
+Styling: Tailwind CSS
+Image Manipulation: Konva.js
+Image Handling: react-konva
+Containerization: Docker (optional)
+Build Tools: Webpack, npm 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Features and Functionality
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Image Manipulation Tools
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Cropping: Allows users to crop images to focus on regions of interest.
+Zooming and Panning: Use mouse controls to zoom in/out and pan the image.
+Brightness and Contrast: Adjust image brightness and contrast for better visualization.
+Window/Level Adjustments: Adjust the window and level for medical images to improve contrast and clarity.
+DICOM Image Handling
+Supports uploading and viewing DICOM images.
+Displays relevant metadata such as patient name and study date extracted from the DICOM file.
